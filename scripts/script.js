@@ -90,7 +90,7 @@ function keyboardInputHandler(e) {
   }
 
   //decimal key
-  if (e.key === ".") {
+  if (e.key === "." || e.key === ",") {
     res.value += ".";
   }
 
